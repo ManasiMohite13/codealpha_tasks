@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="toggle-btn" id="toggle-mode">Toggle Dark Mode</button>
+    <button class="slideshow-btn" id="start-slideshow">Start Slideshow</button>
+    
+    <div class="container">
+        <h1>Image Gallery</h1>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1529612650357-ff05e43cd1ab?q=80&w=200" alt="Image 1">
+            <img src="https://plus.unsplash.com/premium_photo-1682048358672-1c5c6c9ed2ae?q=80&w=200" alt="Image 2">
+            <img src="https://images.unsplash.com/photo-1570741218706-736abd789e7b?q=80&w=200" alt="Image 3">
+            <img src="https://images.unsplash.com/photo-1567097912761-465d09fe536b?q=80&w=200" alt="Image 4">
+            <img src="https://plus.unsplash.com/premium_photo-1681803531285-75db948035d3?q=80&w=200" alt="Image 5">
+            <img src="https://images.unsplash.com/photo-1511416116505-76665e9bb14c?q=80&w=200" alt="Image 6">
+        </div>
+    </div>
+
+    <!-- Image Modal (Hidden by default) -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
